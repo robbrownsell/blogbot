@@ -9,5 +9,5 @@ app.use(bodyParser.json())
 
 // Starts server
 app.listen(port, function() {
-  console.log('Bot is listening on port ' + port)
+  console.log('blogbot is listening on port ' + port)
 })
