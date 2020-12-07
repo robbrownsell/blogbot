@@ -1,6 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const webAPI = require('@slack/web-api')
+const { createEventAdapter } = require('@slack/events-api')
 
 const port = process.env.PORT || 443
 const app = express()
